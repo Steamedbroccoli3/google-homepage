@@ -1,0 +1,53 @@
+.logo {
+    margin: auto;
+    width: 27%;
+} 
+
+.searchbar {
+    margin: auto;
+    width: 40%;
+}
+
+li {
+    display: inline;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 15px;
+}
+
+html, body {
+    height: 100%;
+}
+
+#page {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    padding-bottom: 40px;
+}
+
+#foot {
+    height: 60px;
+    line-height: 40px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    background-color: rgb(242, 242, 242);
+    border-top-color: rgb(228, 228, 228);
+    line-height: 20px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
